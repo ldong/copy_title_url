@@ -12,4 +12,5 @@ I used to like it a lot, but it is not in active development, (still in chrome v
 
 [Chrome Store Link](https://chrome.google.com/webstore/detail/fphedfdnajgljnfadpekgjglaemgkfgb)
 
-### License MIT
+### License
+MIT
