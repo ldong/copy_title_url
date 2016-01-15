@@ -10,4 +10,6 @@ This chrome extension is a enhanced version of [Copy Title+URL to clipboard](htt
 
 I used to like it a lot, but it is not in active development, (still in chrome version 1 format), and not support copy as markdown. So I decided to upgrade this extension to to 2.0 version with Markdown Support.
 
-License MIT and Pull Request are most welcome.
+[Chrome Store Link](https://chrome.google.com/webstore/detail/fphedfdnajgljnfadpekgjglaemgkfgb)
+
+### License MIT
