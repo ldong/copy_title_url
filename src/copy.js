@@ -90,7 +90,7 @@ function copyselectiontitleshorten(selection) {
   });
 }
 
-function copyurlwtag() {
+function copyTitleUrlWithTag() {
   chrome.tabs.getSelected(this.jstdata,function(tab) {
     if( tab.title ){
       copyToClipboard( "<a href=\"" + tab.url + "\" >" + tab.title + "</a>" );
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('copyurlAsMarkdown').addEventListener('click', copyurlAsMarkdown);
     document.getElementById('copytitleurl').addEventListener('click', copytitleurl);
     document.getElementById('copytitleurlshorten').addEventListener('click', copytitleurlshorten);
-    document.getElementById('copyTitleUrlWithTag').addEventListener('click', copyurlwtag);
+    document.getElementById('copyTitleUrlWithTag').addEventListener('click', copyTitleUrlWithTag);
 })
 
 
